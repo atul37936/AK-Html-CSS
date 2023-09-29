@@ -1,0 +1,530 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 1000px;
+    background-image: url('Images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 190px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    background-color: #0071f8;
+}
+.logo{
+    height: 80px;
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 30%;
+    margin: 15px 300px;
+}
+.navbar{
+    width: 70%;
+    height: 80px;
+    float: left;
+}
+ul{
+    width: 44%;
+    position: absolute;
+    right: 5%;
+}
+li{
+    
+    line-height: 80px;
+    margin-left: 15px;
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.Home{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(185, 193, 253, 0.163);
+}
+.Shop,.Products,.Contact{
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.Shop:hover{
+    background-color: rgba(185, 193, 253, 0.163);
+}
+.Products:hover{
+    background-color: rgba(185, 193, 253, 0.163);
+}
+.Contact:hover{
+    background-color: rgba(185, 193, 253, 0.163);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 550;
+    background-color: #ee626b;
+}
+.main-banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 10%;
+}
+.content{
+    position: absolute;
+    left: 16%;
+    top: 35%;
+    color: white;
+    font-family: sans-serif;
+    width: 670px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+h1{
+    margin-top: 20px;
+    font-size: 42px;
+    
+}
+.content p{
+    line-height: 25px;
+}
+.content img{
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+input{
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 60px;
+}
+.placeholder{
+    padding-left: 22px;
+    
+}
+input::placeholder{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+button{
+    width: 23%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: -158px;
+    background-color: #ee626b;
+    color: white;
+    font-weight: 550;
+    font-family: sans-serif;
+   
+}
+button:hover{
+    transition: 0.5s;
+    border-right: 1px solid white;
+    background-color: #0071f8;
+}
+.right-image{
+    position: absolute;
+    left: 63%;
+    top: 20%;
+    
+}
+.right-image img{
+    border-radius: 25px;
+}
+.offer{
+    background-color: #ee626b;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 30px 15px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    left: -5%;
+    bottom: -5%;
+}
+.dollar{
+    background-color: #008Af8;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 25px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.boxes{
+    width: 100%;
+    height: 190px;
+    margin-top: 300px;
+}
+.boxes .box1,.box2,.box3,.box4{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    float: left;
+    margin-left: 26px;
+    position: relative;
+    left: 16%;
+    border-radius: 25px;
+}
+.image{
+    height: 90px;
+    width: 90px;
+    background-color: #0071f8;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    margin: 35px auto 20px;
+}
+.image img{
+    padding-top: 25px;
+}
+.boxes p{
+    width: 300px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.boxes :hover .image{
+    background-color: #ee626b;
+    transition: 0.3s;
+}
+.game-content{
+    width: 100%;
+    height: 600px;
+    margin-top: 8%;
+    position: absolute;
+}
+.game-content .Trending{
+    color: #ee626b;
+    position: absolute;
+    left: 16%;
+    top: 10%;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.game-content .Trending-games{
+    position: absolute;
+    left: 16%;
+    top: 16%;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif;
+    float: left;
+    width: 80%;
+}
+.button{
+    width: 8%;
+    float: right;
+    margin-right: 225px;
+}
+.game-content .game1,.game2,.game3,.game4{
+    width: 300px;
+    height: 310px;
+    background-color: #eeeeee;
+    border-radius: 25px;
+    float: left;
+    margin-right: 33px;
+    position: relative;
+    left: 16%;
+    top: 35%;
+}
+img{
+    border-radius: 25px;
+}
+.game-content h6{
+    color: #7A7A7A;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.game-content h5{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.game-content i{
+    background-color: #ee626b;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 79%;
+    bottom: 8%;
+    color: white;
+}
+.game-content :hover i{
+    background-color: #0071f8;
+    transition: 0.3s;
+}
+.game-content :hover h5{
+    color: #0071f8;
+    transition: 0.3s;
+}
+.game-content h3{
+    font-family: sans-serif;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #008Af8;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.game-content h2{
+    font-family: sans-serif;
+    background-color: #008Af8;
+    color: white;
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.top-games{
+    width: 100%;
+    height: 700px;
+    background-color: #f7f7f7;
+    border-radius: 160px;
+    margin-top: 45%;
+    position: absolute;
+}
+.top-games .games{
+    color: #ee626b;
+    position: absolute;
+    left: 16%;
+    top: 15%;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.top-games .played{
+    position: absolute;
+    left: 16%;
+    top: 20%;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif;
+    float: left;
+    width: 80%;
+}
+.top-games .item1,.item2,.item3,.item4,.item5,.item6{
+    height: 300px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+    left: 16%;
+    top: 38%;
+    float: left;
+    margin-left: 27px;
+}
+.top-games :hover .explore{
+    transition: 0.5s;
+    border-right: 1px solid white;
+    background-color: #0071f8;
+}
+.top-games :hover .line2{
+    transition: 0.5s;
+    color: #0071f8;
+}
+.top-games .line1{
+    text-align: center;
+    margin-top: 17px;
+    color: #7A7A7A;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.top-games .line2{
+    text-align: center;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.top-games .explore{
+    width: 100px;
+    height: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    position: absolute;
+    left: 200px;
+    bottom: -15px;
+}
+.top-catagories{
+    width: 100%;
+    height: 500px;
+    margin-top: 88%;
+    position: absolute;
+    text-align: center;
+}
+.top-catagories h6{
+    color: #ee626b;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 36px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+.top-catagories .row1,.row2,.row3,.row4,.row5{
+    width: 235px;
+    height: 284px;
+    margin-top: 80px;
+    margin-right: 29px;
+    border-radius: 25px;
+    background-color: #0071f8;
+    float: left;
+    position: relative;
+    left: 16%;
+}
+.top-catagories .r-act{
+    padding: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.container{
+    width: 100%;
+    height: 630px;
+    margin-top: 120%;
+    position: absolute;
+}
+.container .image1{
+    width: 550px;
+    height: 510px;
+    border-radius: 25px;
+    background-image: url('Images/img21.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.container .section1{
+    width: 550px;
+    height: 510px;
+    border-radius: 25px;
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    background-color: #f7f7f7;
+}
+.container .paragraph{
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 360px;
+}
+.container .heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ee626b;
+}
+.container .sub-heading{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.container .small-paragraph{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+    line-height: 28px;
+}
+.container button{
+    position: absolute;
+    left: 235px;
+    bottom: 60px;
+}
+.container span{
+    color: #0071f8;
+}
+.container .section2{
+    width: 550px;
+    height: 420px;
+    border-radius: 25px;
+    position: absolute;
+    top: 27%;
+    left: 55%;
+    background-color: #f7f7f7;
+}
+.container .section2 .paragraph{
+    width: 380px;
+}
+.container .section2 input{
+    width: 410px;
+}
+.container .section2 button{
+    width: 30%;
+    position: absolute;
+    left: 483px;
+}
+.section2 input:focus{
+    box-shadow: 0 0 0 4px rgba(13,110,253,.25);
+}
+footer{
+    width: 100%;
+    height: 160px;
+    margin-top: 160%;
+    background-image: url('Images/banner2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 190px;
+    border-top-right-radius: 190px;
+    background-color: red;
+}
+footer p{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+footer p a:hover{
+    transition: 0.3s;
+    opacity: 0.75;
+}
