@@ -1,0 +1,541 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/uncity.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main
+{
+    width: 100%;
+}
+.nav
+{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.nav img
+{
+  width: 10%;
+  margin-top: 5%;
+}
+li
+{
+    float: left;
+    padding: 10px;  
+}
+.nav ul li a
+{
+    color: white;
+}
+.content
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+.content p
+{
+    margin-bottom: 30px;
+}
+.btn a
+{
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+ul li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+ul li:hover::after
+{
+    width: 100%;
+
+}
+.btn a:hover
+{
+    background-color: red;
+    transition: 0.3s;
+    border: none;
+}
+.core
+{
+    color: blueviolet;
+    width: 43%;
+    height: 130px;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.core p
+{
+  line-height: 5;
+}
+.box1
+{
+    width: 32%;
+    height: 175px;
+    background-color: rgb(212, 206, 181);
+    position: absolute;
+    top: 159%;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    padding: 10px;
+   
+}
+.box1 h2
+{
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+}
+.box1 p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+.box2
+{
+
+    width: 30%;
+    height: 175px;
+    background-color: rgb(212, 206, 181);
+    position: absolute;
+    top: 159%;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 17%;
+    padding: 10px;
+}
+.box2 h2
+{
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+}
+.box2 p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+.box3
+{
+    width: 30%;
+    height: 175px;
+    background-color: rgb(212, 206, 181);
+    position: absolute;
+    top: 159%;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 83%;
+    padding: 10px;
+}
+.box3 h2
+{
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+}
+.box3 p
+{
+    text-align: justify;
+    margin-top: 10px;
+}
+.branch
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 200%;
+}
+.our
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 210%;
+    left:5%;
+    width: 90%;
+}
+.branch1
+{
+    width: 33%;
+    height: 250px;
+}
+.branch1 img
+{
+    width: 100%;
+    height: 100%;   
+    border-radius: 10px; 
+}
+.branch h3
+{
+    text-align: center;
+    color: blueviolet;
+}
+.branch p
+{
+    text-align: center;
+    line-height: 5;
+}
+
+.branch1 .red
+{
+    position: absolute;
+    width: 33%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgba(33, 32, 32, 0.5);
+    top: 0%;
+     opacity: 0;     
+}
+ .branch1 .red h3 
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+   bottom: 0%;
+    color: red  ;
+} 
+.red:hover
+{
+    opacity: 1;
+}
+.red:hover h3
+{
+    bottom: 50%;
+    transition: 0.3s;
+}
+.faclity 
+{
+    color: blueviolet;
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 265%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+} 
+.branch
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 200%;
+}
+.our-1
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 280%;
+    left:5%;
+    width: 90%;
+}
+.branch2
+{
+    width: 33%;
+    height: 250px;
+}
+.branch2 img
+{
+    width: 100%;
+    height: 100%;   
+    border-radius: 10px; 
+}
+.para
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 330%;
+    left: 5%;
+
+}
+.box6
+{
+    width: 32%;
+    height: 155px;
+    background-color: cornsilk;
+    text-align: justify;
+}
+.box6 p
+{
+    padding: 10px;
+}
+.std
+{
+    position: absolute;
+   width: 50%;
+   height: 30px;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   top: 370%;
+}
+.std h3
+{
+    text-align: center;
+    color: blueviolet;
+}
+.box7
+{
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    top: 380%;
+    left: 10%;
+}
+.box7 .student-info
+{
+    width: 100%;
+    height: 100%;
+    background-color: cornsilk;
+    display: flex;
+    border-radius: 30px;
+}
+.box7 .student-info .image img
+{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.box7 .paragraph
+{
+    padding-top: 10px;
+}
+.box7 .paragraph h3
+{
+   padding-top: 10px;
+}
+.box8
+{
+  width: 35%;
+  height: 150px;
+  position: absolute;
+  top: 380%;
+  left: 50%;
+    
+}
+.box8 .student-info1
+{
+    width: 100%;
+    height: 100%;
+    background-color: cornsilk;
+    display: flex;
+    border-radius: 30px;
+}
+.box8 .student-info1 .image1 img
+{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.box8 .paragraph1
+{
+    padding-top: 10px;
+}
+.box8 .paragraph1 h3
+{
+  padding-top: 10px;
+}
+.pi
+{
+   position: absolute;
+   top: 410%;
+   padding: 10px;
+}
+.footer
+{
+    width: 100%;
+    height: 90vh; 
+    position: absolute;
+    top: 420%;
+}
+.box9
+{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2.5%;
+}
+.left
+{
+    width: 37%;
+    height: 80vh;
+    background-color: white;
+    padding-left: 10px;  
+    box-shadow: 10px 10px 10px rgb(212, 207, 207);  
+}
+
+.locat
+{
+    margin-top: 20px;
+}
+.locat i
+{
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(13, 169, 236, 0.824);
+    background-color: rgba(117, 176, 202, 0.646);
+}
+.icon h3
+{
+    display: inline-block;
+}
+.icon p
+{
+    position: relative;
+    left: 10%; 
+    color: black;
+  
+    font-size: 10px;
+}
+
+.email{
+    margin-top: 20px;
+}
+.email i
+{
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(13, 169, 236, 0.824);
+    background-color: rgba(117, 176, 202, 0.646);
+}
+.icon1 h3
+{
+    display: inline;
+}
+.icon1 p
+{
+    position: relative;
+    left: 10%; 
+    color: black;
+    font-size: 10px;
+}
+.mobile
+{
+    margin-top: 25px;
+}
+.mobile i
+{
+    padding: 10px;
+    border-radius: 50%;
+    color: rgba(13, 169, 236, 0.824);
+    background-color: rgba(117, 176, 202, 0.646);
+}
+.icon2 h3
+{
+    display: inline;
+}
+.icon2 p
+{
+    position: relative;
+    left: 10%;
+    color: black;
+    font-size: 10px;
+}
+iframe
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 95%;
+    height: 40vh;
+}
+.right
+{
+    width: 60%;
+    height: 80vh;
+    background-color: aliceblue; 
+}
+.write
+{
+    display: flex;
+    padding: 20px;
+}
+.write input
+{
+    width: 300px;
+    margin-right: 40px;  
+}
+.write .int
+{
+    padding-left: 10px;
+}
+.subt
+{
+    padding-left: 20px;
+}
+.int1
+{
+    width: 97%;
+    padding-left: 10px;
+}
+.msg
+{
+    padding: 20px;
+}
+.msg textarea
+{
+    padding-left: 10px;
+}
+.send button
+{
+    margin-left: 40%;
+}
+button
+{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(35, 147, 203);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+
+
