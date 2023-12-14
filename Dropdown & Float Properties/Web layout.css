@@ -1,0 +1,259 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.Amazon-logo
+{
+    width: 10%;
+    height: 60px;
+    float: left;
+    padding-top: 6px;
+    
+}
+.Amazon-logo a
+{
+    margin-left: 20px;
+    height: 50px;
+}
+.Amazon-logo img
+{
+    width: 60%;
+    height: 50px;
+    
+}
+.search-bar
+{
+    width: 55%;
+    float: left;
+    line-height: 60px;
+}
+.search-bar input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none    ;
+    border: none;
+    
+}
+.search-bar input::placeholder
+{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: inherit;
+}
+.nav-menu .nav-list
+{
+    list-style: none;
+    line-height: 60px;
+}
+.nav-list a
+{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.Amazon-logo img:hover
+{
+    border: 1px solid white;
+}
+.content
+{
+    width: 60%;
+    height: 90vh;
+    margin: auto;
+}
+.photo1
+{
+    width: 35%;
+}
+.photo1 img
+{
+    width: 100%;
+    margin: 25px;
+    float: left;
+}
+.para1
+{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.para1 p
+{
+    font-size: 22px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para2 p
+{
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para3
+{
+    width: 65%;
+    float: left;
+}
+.para3 p
+{
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo2
+{
+    width: 35%;
+    float: right;
+    padding-right: 25px;
+}
+.photo2 img
+{
+    width: 100%;
+    padding-top: 25px;
+}
+.home-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 60px;
+    right: 24%;
+    width: 10%;
+}
+.home-menu .home-list{
+    list-style: none;
+    display: none;
+}
+.home-list a{
+    margin-left: 10%;
+    width: 85%;
+    color: black;
+}
+.nav-list:hover .home-list{
+    display: block;
+    border-top: 1px solid orange;
+}
+.about-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 60px;
+    right: 19%;
+    width: 10%;
+}
+.about-menu .about-list{
+    list-style: none;
+    display: none;
+}
+.about-list a{
+    margin-left: 10%;
+    width: 75%;
+    color: black;
+}
+.nav-list:hover .about-list{
+    display: block;
+    border-top: 1px solid orange;
+}
+.service-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 60px;
+    right: 12.5%;
+    width: 10%;
+}
+.service-menu .service-list{
+    list-style: none;
+    display: none;
+}
+.service-list a{
+    margin-left: 10%;
+    width: 75%;
+    color: black;
+}
+.nav-list:hover .service-list{
+    display: block;
+    border-top: 1px solid orange;
+}
+.sub-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 0px;
+    left: 99%;
+    width: 90%;
+}
+.sub-menu .sub-list{
+    list-style: none;
+    display: none;
+}
+.sub-list a{
+    margin-left: 10%;
+    width: 75%;
+    color: black;
+}
+.service-list:hover .sub-list{
+    display: block;
+    border-top: 1px solid orange;
+}
+.blog-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 60px;
+    right: 6.5%;
+    width: 10%;
+}
+.blog-menu .blog-list{
+    list-style: none;
+    display: none;
+}
+.blog-list a{
+    margin-left: 10%;
+    width: 75%;
+    color: black;
+}
+.nav-list:hover .blog-list{
+    display: block;
+    border-top: 1px solid orange;
+}
+.contact-menu{
+    background-color: white;
+    box-shadow: 3px 3px 10px 0px rgb(221, 221, 221);
+    position: absolute;
+    top: 60px;
+    right: 2%;
+    width: 10%;
+}
+.contact-menu .contact-list{
+    list-style: none;
+    display: none;
+}
+.contact-list a{
+    margin-left: 10%;
+    width: 75%;
+    color: black;
+}
+.nav-list:hover .contact-list{
+    display: block;
+    border-top: 1px solid orange;
+}
